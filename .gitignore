@@ -11,10 +11,15 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-data/raw/
-data/interim/
-data/processed/
+# Research data
+data/english_only/
+data/code_switch/
+
+# Generated transcripts and analysis data
+transcripts/
+alignments/
+annotations/
+
 
 # Audio
 *.wav
